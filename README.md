@@ -27,7 +27,7 @@ All current biometric identifications are based on the same principle:
 - Identification by the biometric device is no longer based on a recognition threshold and therefore no longer needs to be stored for comparison. As shown in the figure above, private cryptographic keys are generated on the fly (and then deleted), allowing the user to retrieve and decrypt their decentralized "key ring". Tolerance on identification is ensured by the learning mechanism described on the right. Finally, authentication is no longer software but cryptographic, making any attempt of software attack useless. 
 
 ### An authentication of the world population independent of the system
-Unlike biometric identification on a smartphone that will only work on one smartphone - Uniris authentication works for any person and on any device. As no keys are stored, it is compatible with the most stringent data protection regulations (GDPR, CNIL, etc.), making biometrics available for large-scale use.
+Unlike biometric identification on a smartphone that will only work on one smartphone -AE Biometrics authentication works for any person and on any device. As no keys are stored, it is compatible with the most stringent data protection regulations (GDPR, CNIL, etc.), making biometrics available for large-scale use.
 
 ### Automatic lifelong learning
 As shown in the figure above, the keys are generated in pairs from the biometric measurements. If one of the measurements is different (cut, burn, etc.) then only one key will match and can validate the authentication while the two new keys will be added to encrypt (via associated public keys) the decentralized key ring, thus learning a person's new biometric measurements without ever having to store the keys.
